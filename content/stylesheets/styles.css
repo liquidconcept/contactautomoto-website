@@ -32,6 +32,7 @@ body {
       }
 
       p {
+        margin-top: 0px;
         font-size: 10px;
         color: #0D004D;
         font-style: italic;
