@@ -1,7 +1,211 @@
 body {
   background-image: url(/images/bg.gif);
+  margin: 0px;
   
   #main {
+  	font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 720px;
+    height: auto;
+    background-color: #98CCF8;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 
+    header {
+  		background-image: url(/images/top.gif);
+  		width: auto;
+  		height: 90px;
+  		background-repeat: no-repeat;
+
+  		.top-image {
+        margin-left: 330px;
+  			background-image: url(/images/move.jpg);
+  			background-repeat: no-repeat;
+  			width: 390px;
+	  		height: 90px;
+        display: block;
+  		}
+
+  		nav {
+        width: 658px;
+        padding-top: 10px;
+        margin-top: 15px;
+        border-top: 3px solid #1C0C80; 
+        margin-left: 35px;
+  			background-repeat: no-repeat;
+
+  			.accueil {
+  				background-image: url(/images/menu_accueil_off.gif);
+  				width: 70px;
+  				height: 50px;
+  				background-repeat: inherit;
+  				display: inline-block;
+  			}
+
+  			.accueil:hover {
+  				background-image: url(/images/menu_accueil.gif);
+  			}
+
+  			.informations {
+  				background-image: url(/images/menu_informations_off.gif);
+  				width: 105px;
+  				height: 50px;
+  				background-repeat: inherit;
+  				display: inline-block;
+  			}
+
+  			.informations:hover {
+  				background-image: url(/images/menu_informations.gif);
+  			}
+
+  			.cours {
+  				background-image: url(/images/menu_cours_off.gif);
+  				width: 115px;
+  				height: 50px;
+  				background-repeat: inherit;
+  				display: inline-block;
+  			}
+
+  			.cours:hover {
+  				background-image: url(/images/menu_cours.gif);
+  			}
+
+  			.voiture {
+  				background-image: url(/images/menu_voiture_off.gif);
+  				width: 75px;
+  				height: 50px;
+  				background-repeat: inherit;
+  				display: inline-block;
+  			}
+
+  			.voiture:hover {
+  				background-image: url(/images/menu_voiture.gif);
+  			}
+
+  			.moto {
+  				background-image: url(/images/menu_moto_off.gif);
+  				width: 60px;
+  				height: 50px;
+  				background-repeat: inherit;
+  				display: inline-block;
+  			}
+
+  			.moto:hover {
+  				background-image: url(/images/menu_moto.gif);
+  			}
+
+  			.renseignements {
+  				background-image: url(/images/menu_renseignements_off.gif);
+  				width: 130px;
+  				height: 50px;
+  				background-repeat: inherit;
+  				display: inline-block;
+  			}
+
+  			.renseignements:hover {
+  				background-image: url(/images/menu_renseignements.gif);
+  			}
+
+  			.situations {
+  				background-image: url(/images/menu_situation_off.gif);
+  				width: 74px;
+  				height: 50px;
+  				background-repeat: inherit;
+  				display: inline-block;
+  			}
+
+  			.situations:hover {
+  				background-image: url(/images/menu_situation.gif);
+  			}
+  		}
+    }
+
+    #content {
+      padding-top: 28px;
+    	margin-left: 35px;
+    	margin-right: 40px;
+
+    	h1 {
+				font-weight: bold;
+				font-size: 30px;
+				color: #1C0C80;
+    	}
+
+    	h2 {
+    		color: #1C0C80;
+    		margin-left: 158px;
+    		font-size: 24px;
+    		font-style: italic;
+    		font-weight: bold;
+    	}
+
+    	p {
+    		color: #0D004D;
+    		margin-left: 178px;
+    		font-size: 12px;
+    		text-align: justify;
+        line-height: 1.5em;
+    	}
+
+      a {
+        color: #0000FF;
+        text-decoration: none;
+      }
+
+      #text {
+        margin-top: -20px;
+      }
+
+      .strong {
+        font-weight: bold;
+      }
+      
+      #address {
+        font-size: 11px;
+        width: 140px;
+
+        h1 {
+          color: #0066CC;
+          font-size: inherit;
+          text-align: center;
+          margin: 0px;
+          line-height: 12px;
+        }
+
+        p {
+          color: #0066CC;
+          font-size: inherit;
+          text-align: center;
+          margin: 0px;
+          line-height: 12px;
+        }
+
+        a {
+          font-size: inherit;
+          text-align: center;
+          margin: 0px;
+          line-height: 12px;
+        }
+      }
+    }
+
+    footer {
+  		background-image: url(/images/route.jpg);
+  		width: 100%;
+
+      p {
+        color: #333;
+        text-align: center;
+        font-size: 9px;
+        padding-top: 125px;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+        font-size: 9px;
+      }
+    }
   }
 }
