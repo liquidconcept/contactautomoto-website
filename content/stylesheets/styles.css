@@ -12,8 +12,6 @@ body {
     border-right: 1px solid black;
 
     #content {
-      margin-left: 192px;
-      margin-right: 40px;
 
       h1 {
         font-weight: bold;
@@ -42,6 +40,8 @@ body {
       }
 
       #text {
+        margin-left: 192px;
+        margin-right: 40px;
         margin-top: -20px;
       }
 
@@ -55,31 +55,40 @@ body {
     }
 
     aside {
+
+      margin-top: 100px;
+      margin-left: 35px;
       float: left;
+      font-size: 11px;
+      width: 140px;
+
+      img {
+        border: black 2px solid;
+      }
+
+      p {
+
+      }
 
       #address {
         margin-top: 40px;
-        font-size: 11px;
-        width: 140px;
 
         h1 {
           color: #0066CC;
-          font-size: inherit;
           text-align: center;
           margin: 0px;
           line-height: 12px;
+          font-size: 11px;
         }
 
         p {
           color: #0066CC;
-          font-size: inherit;
           text-align: center;
           margin: 0px;
           line-height: 12px;
         }
 
         a {
-          font-size: inherit;
           text-align: center;
           margin: 0px;
           line-height: 12px;
