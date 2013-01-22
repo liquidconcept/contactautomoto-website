@@ -11,10 +11,107 @@ body {
     border-left: 1px solid black;
     border-right: 1px solid black;
 
+    #content {
+      margin-left: 192px;
+      margin-right: 40px;
+
+      h1 {
+        font-weight: bold;
+        font-size: 30px;
+        color: #1C0C80;
+      }
+
+      h2 {
+        color: #1C0C80;
+        font-size: 24px;
+        font-style: italic;
+        font-weight: bold;
+      }
+
+      p {
+        color: #0D004D;
+        font-size: 12px;
+        text-align: justify;
+        line-height: 1.5em;
+        margin-left: 20px;
+      }
+
+      a {
+        color: #0000FF;
+        text-decoration: none;
+      }
+
+      #text {
+        margin-top: -20px;
+      }
+
+      .strong {
+        font-weight: bold;
+      }
+
+      .name {
+        float: right;
+      }
+    }
+
+    aside {
+      float: left;
+
+      #address {
+        margin-top: 40px;
+        font-size: 11px;
+        width: 140px;
+
+        h1 {
+          color: #0066CC;
+          font-size: inherit;
+          text-align: center;
+          margin: 0px;
+          line-height: 12px;
+        }
+
+        p {
+          color: #0066CC;
+          font-size: inherit;
+          text-align: center;
+          margin: 0px;
+          line-height: 12px;
+        }
+
+        a {
+          font-size: inherit;
+          text-align: center;
+          margin: 0px;
+          line-height: 12px;
+        }
+      }
+    }
+
+    footer {
+      background-repeat: no-repeat;
+      background-image: url(/images/route.jpg);
+      width: 100%;
+      height: 100%;
+
+      p {
+        color: #333;
+        text-align: center;
+        font-size: 9px;
+        padding-top: 115px;
+      }
+
+      a {
+        color: #333;
+        text-decoration: none;
+        text-align: center;
+        font-size: 9px;
+      }
+    }
+
     header {
   		background-image: url(/images/top.gif);
   		width: auto;
-      height: 140px;
+      height: 115px;
   		background-repeat: no-repeat;
 
   		.top-image {
@@ -117,100 +214,6 @@ body {
   				background-image: url(/images/menu_situation.gif);
   			}
   		}
-    }
-
-    #content {
-      padding-top: 28px;
-    	margin-left: 35px;
-    	margin-right: 40px;
-
-    	h1 {
-				font-weight: bold;
-				font-size: 30px;
-				color: #1C0C80;
-    	}
-
-    	h2 {
-    		color: #1C0C80;
-    		margin-left: 158px;
-    		font-size: 24px;
-    		font-style: italic;
-    		font-weight: bold;
-    	}
-
-    	p {
-    		color: #0D004D;
-    		margin-left: 178px;
-    		font-size: 12px;
-    		text-align: justify;
-        line-height: 1.5em;
-    	}
-
-      a {
-        color: #0000FF;
-        text-decoration: none;
-      }
-
-      #text {
-        margin-top: -20px;
-      }
-
-      .strong {
-        font-weight: bold;
-      }
-      
-      #address {
-        margin-top: 40px;
-        font-size: 11px;
-        width: 140px;
-
-        h1 {
-          color: #0066CC;
-          font-size: inherit;
-          text-align: center;
-          margin: 0px;
-          line-height: 12px;
-        }
-
-        p {
-          color: #0066CC;
-          font-size: inherit;
-          text-align: center;
-          margin: 0px;
-          line-height: 12px;
-        }
-
-        a {
-          font-size: inherit;
-          text-align: center;
-          margin: 0px;
-          line-height: 12px;
-        }
-      }
-
-      .name {
-        float: right;
-      }
-    }
-
-    footer {
-  		background-image: url(/images/route.jpg);
-  		width: 100%;
-      height: 100%;
-
-      p {
-        color: #333;
-        text-align: center;
-        font-size: 9px;
-        padding-top: 115px;
-      }
-
-      a {
-        color: #333;
-        text-decoration: none;
-        text-align: center;
-        font-size: 9px;
-      }
     }
   }
 }
