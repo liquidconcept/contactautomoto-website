@@ -126,6 +126,10 @@ body {
           font-size: 11px;
         }
       }
+
+      iframe {
+        margin-left: 20px;
+      }
     }
 
     header {
