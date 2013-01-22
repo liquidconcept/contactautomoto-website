@@ -24,6 +24,11 @@
       </section>
       <aside>
         <%= content_for(item, :aside) %>
+      </aside>
+      <section id="content">
+        <article>
+          <%= yield %>
+        </article>
         <div id="address">
           <h1>Contact Auto-Moto</h1>
           <p>rue de la Borde 57</p>
@@ -31,11 +36,6 @@
           <p>Tel. 078 621 81 82</p>
           <p>e-mail : <a href="#">info@contact-auto-moto.ch</a></p>
         </div>
-      </aside>
-      <section id="content">
-        <article>
-          <%= yield %>
-        </article>
       </section>
       <footer>
         <p>Copyright © 2004-2012 Contact - <a href="http://www.liquid-concept.ch">Website by Liquid-concept -</a></p>

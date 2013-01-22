@@ -13,9 +13,30 @@ body {
 
     h1 {
       margin: 35px;
+      margin-bottom: 20px;
       font-weight: bold;
       font-size: 30px;
       color: #1C0C80;
+    }
+
+    aside {
+      margin-top: 6px;
+      margin-left: 35px;
+      float: left;
+      font-size: 11px;
+      width: 155px;
+
+      img {
+        padding: 0px;
+        border: black 2px solid;
+      }
+
+      p {
+        font-size: 10px;
+        color: #0D004D;
+        font-style: italic;
+        text-align: left;
+      }
     }
 
     #content {
@@ -43,7 +64,6 @@ body {
       #text {
         margin-left: 192px;
         margin-right: 40px;
-        margin-top: -20px;
       }
 
       .strong {
@@ -53,26 +73,11 @@ body {
       .name {
         float: right;
       }
-    }
-
-    aside {
-      margin-left: 35px;
-      float: left;
-      font-size: 11px;
-      width: 155px;
-
-      img {
-        border: black 2px solid;
-      }
-
-      p {
-        color: #0D004D;
-        font-style: italic;
-        text-align: left;
-      }
 
       #address {
-        margin-top: 40px;
+        float: left;
+        width: 155px;
+        margin-left: 35px;
 
         h1 {
           color: #0066CC;
@@ -102,7 +107,7 @@ body {
     header {
   		background-image: url(/images/top.gif);
   		width: auto;
-      height: 115px;
+      height: 120px;
   		background-repeat: no-repeat;
 
   		.top-image {
