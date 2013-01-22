@@ -50,6 +50,12 @@ body {
         font-weight: bold;
       }
 
+      h3 {
+        color: #1C0C80;
+        font-size: 18px;
+        font-weight: bold;
+      }
+
       p {
         color: #0D004D;
         font-size: 12px;
