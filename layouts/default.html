@@ -1,13 +1,39 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8">
-    <title>Contact Auto Moto<%= @item[:title] %></title>
+    <title>Contact Auto Moto</title>
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" media="screen">
   </head>
   <body>
-    <div id="main">
-      <%= yield %>
-    </div>
+    <section id="main">
+      <header>
+        <div class="top-image"></div>
+        <nav>
+          <div class="accueil"><a href="#"></a></div>
+          <div class="informations"><a href="#"></a></div>
+          <div class="cours"><a href="#"></a></div>
+          <div class="voiture"><a href="#"></a></div>
+          <div class="moto"><a href="#"></a></div>
+          <div class="renseignements"><a href="#"></a></div>
+          <div class="situations"><a href="#"></a></div>
+        </nav>
+      </header>
+      <section id="content">
+        <article>
+          <%= yield %>
+          <div id="address">
+            <h1>Contact Auto-Moto</h1>
+            <p>rue de la Borde 57</p>
+            <p>1018 Lausanne</p>
+            <p>Tel. 078 621 81 82</p>
+            <p>e-mail : <a href="#">info@contact-auto-moto.ch</a></p>
+          </div>
+        </article>
+      </section>
+      <footer>
+        <p>Copyright © 2004-2012 Contact - <a href="http://www.liquid-concept.ch">Website by Liquid-concept -</a></p>
+      </footer>
+    </section>
   </body>
 </html>
