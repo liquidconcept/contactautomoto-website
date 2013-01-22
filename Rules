@@ -55,7 +55,7 @@ route '/htaccess/' do
 end
 
 route '*' do
-  if item.children.size > 0 || item.identifier == '/' || item.identifier == "/#{item[:locale]}/"
+  if item.children.size > 0 || item.identifier == '/'
     item.identifier + 'index.html'
   else
     item.identifier.gsub(/\/$/, '') + '.' + item[:extension]

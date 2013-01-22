@@ -19,16 +19,19 @@
           <div class="situations"><a href="#"></a></div>
         </nav>
       </header>
+      <aside>
+        <%= content_for(item, :aside) %>
+        <div id="address">
+          <h1>Contact Auto-Moto</h1>
+          <p>rue de la Borde 57</p>
+          <p>1018 Lausanne</p>
+          <p>Tel. 078 621 81 82</p>
+          <p>e-mail : <a href="#">info@contact-auto-moto.ch</a></p>
+        </div>
+      </aside>
       <section id="content">
         <article>
           <%= yield %>
-          <div id="address">
-            <h1>Contact Auto-Moto</h1>
-            <p>rue de la Borde 57</p>
-            <p>1018 Lausanne</p>
-            <p>Tel. 078 621 81 82</p>
-            <p>e-mail : <a href="#">info@contact-auto-moto.ch</a></p>
-          </div>
         </article>
       </section>
       <footer>
