@@ -161,6 +161,7 @@ body {
       }
       
       #address {
+        margin-top: 40px;
         font-size: 11px;
         width: 140px;
 
@@ -186,6 +187,10 @@ body {
           margin: 0px;
           line-height: 12px;
         }
+      }
+
+      .name {
+        float: right;
       }
     }
 
