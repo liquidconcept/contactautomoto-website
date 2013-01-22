@@ -14,7 +14,7 @@ body {
     header {
   		background-image: url(/images/top.gif);
   		width: auto;
-  		height: 90px;
+      height: 140px;
   		background-repeat: no-repeat;
 
   		.top-image {
@@ -30,7 +30,6 @@ body {
         width: 658px;
         padding-top: 10px;
         margin-top: 15px;
-        border-top: 3px solid #1C0C80; 
         margin-left: 35px;
   			background-repeat: no-repeat;
 
