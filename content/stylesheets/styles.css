@@ -64,13 +64,18 @@ body {
         margin-left: 20px;
       }
 
-      li {
-        color: #0D004D;
-        font-size: 12px;
-        line-height: 1.2em;
-        margin-left: 20px;
-        word-spacing: 2px;
-        text-align: left;
+      ul {
+
+        margin: 25px 0px 45px 0px;
+
+        li {
+          color: #0D004D;
+          font-size: 12px;
+          line-height: 1.2em;
+          margin-left: 20px;
+          word-spacing: 2px;
+          text-align: left;
+        }
       }
 
       a {
@@ -80,7 +85,7 @@ body {
 
       #text {
         margin-left: 192px;
-        margin-right: 35px;
+        margin-right: 25px;
         margin-bottom: -15px;
       }
 
