@@ -97,6 +97,10 @@ body {
         margin-right: 36px;
       }
 
+      .note {
+        font-size: smaller;
+      }
+
       #address {
         float: left;
         width: 155px;
