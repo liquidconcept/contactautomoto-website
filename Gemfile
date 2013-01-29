@@ -9,5 +9,3 @@ gem 'sass', '3.2.1'
 gem 'compass'
 
 gem 'pony'
-
-
