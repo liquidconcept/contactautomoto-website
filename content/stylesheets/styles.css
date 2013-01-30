@@ -1,3 +1,19 @@
+/*************************/
+/*       COLORS          */
+/*************************/
+
+$bg_color: #98CCF8;
+$title_color: #1C0C80;
+$text_color: #0D004D;
+$address_color: #0066CC;
+
+/*************************/
+/*    OTHER VARIABLE     */
+/*************************/
+
+$border: 1px solid black;
+$img_border: black 2px solid;
+
 body {
   background-image: url(/images/bg.gif);
   margin: 0px;
@@ -8,16 +24,16 @@ body {
     margin: 0 auto;
     width: 720px;
     height: auto;
-    background-color: #98CCF8;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    background-color: $bg_color;
+    border-left: $border;
+    border-right: $border;
 
     h1 {
       margin: 35px;
       margin-bottom: 20px;
       font-weight: bold;
       font-size: 30px;
-      color: #1C0C80;
+      color: $title_color;
     }
 
     aside {
@@ -28,13 +44,13 @@ body {
       width: 155px;
 
       img {
-        border: black 2px solid;
+        border: $img_border;
       }
 
       p {
         margin-top: 0px;
         font-size: 10px;
-        color: #0D004D;
+        color: $text_color;
         font-style: italic;
         text-align: left;
         line-height: 15px;
@@ -44,21 +60,22 @@ body {
     #content {
 
       h2 {
-        color: #1C0C80;
+        color: $title_color;
         font-size: 24px;
         font-style: italic;
         font-weight: bold;
       }
 
       h3 {
-        color: #1C0C80;
+        color: $title_color;
         font-size: 18px;
         font-weight: bold;
+        margin-left: 20px;
       }
 
       p {
         padding: 5px 0 5px 0;
-        color: #0D004D;
+        color: $text_color;
         font-size: 12px;
         text-align: justify;
         line-height: 1.5em;
@@ -68,7 +85,7 @@ body {
       ul {
 
         li {
-          color: #0D004D;
+          color: $text_color;
           font-size: 12px;
           line-height: 1.2em;
           margin-left: 20px;
@@ -80,6 +97,15 @@ body {
       a {
         color: #0000FF;
         text-decoration: none;
+      }
+
+      a {
+        font-size: 12px;
+        margin-left: 20px;
+      }
+
+      li > a {
+        margin-left: 0px;
       }
 
       #text {
@@ -109,7 +135,7 @@ body {
         padding-bottom: 10px;
 
         h1 {
-          color: #0066CC;
+          color: $address_color;
           text-align: center;
           margin: 0px;
           line-height: 14px;
@@ -118,7 +144,7 @@ body {
 
         p {
           padding: 0px;
-          color: #0066CC;
+          color: $address_color;
           text-align: center;
           margin: 0px;
           line-height: 13px;
